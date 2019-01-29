@@ -1,0 +1,9 @@
+
+#run:
+
+
+composer update
+php aritsan migrate
+php artisan db:seed
+npm update
+npm run watch

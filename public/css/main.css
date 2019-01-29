@@ -1,0 +1,138 @@
+
+.dropdown-menu a {
+    border-bottom: 1px solid #eee;
+    display: block;
+    text-decoration: none;
+    padding: 8px;
+    color: #636A6F;
+    font-weight: 400;
+}
+
+.dropdown-menu a:last-child {
+    border-bottom: 0px;
+}
+
+.pagination {
+    margin: auto;
+}
+
+.panel-body .thumbnail :hover {
+    background-color: #2F97D1;
+    color: #FFF;
+}
+
+.panel-body .thumbnail :after {
+    background-color: #F6F8FA;
+}
+
+.panel-body .thumbnail a {
+    text-decoration: none;
+}
+
+.panel-heading-button{padding-bottom: 20px; padding-left: 0;}
+.numFunnelsDisplay{}
+
+@media (max-width: 379px){
+
+    .coupon-codes .panel-heading-button .col-xs-3,.coupon-codes .panel-heading-button .col-md-6{
+        width: 100%; margin-bottom: 8px;
+
+    }
+    .coupon-codes .panel-heading-button .col-md-6 button{
+        width: 100%
+    }
+
+}
+
+
+
+
+.addedTags a,.addedTags span{
+    margin-right: 5px;
+    border: solid thin #ccc;
+    padding: 3px 5px;
+    border-radius: 5px;
+    text-decoration:none;
+    margin-bottom: 5px;
+    display: inline-block;
+
+}
+.addedTags a:hover{
+    background-color: rgba(200, 200, 200, 0.5);
+
+
+}
+.addedTags a span.glyphicon{font-size:11px ; color: black;}
+
+.autocomplete ul{padding-left:0 !important; margin-top:0 !important;z-index: 99999;padding-top:0 !important;}
+
+
+.header-box{    border-radius: 5px;
+                padding: 20px;
+                border: solid thin #d3e0e9;
+
+                margin-bottom: 8px;}
+.header-title{margin: 0}
+
+.header-title span.small{
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+}
+@media (max-width: 680px){
+    .header-title{margin-bottom: 10px}
+
+}
+@media (max-width: 379px){
+
+    .header-title span.small{font-size: 11px;}
+
+}
+
+@media (max-width: 357px){
+    .header-box .action-buttons{
+        text-align: center;
+    }
+
+    .header-box .action-buttons a{
+        margin-bottom: 8px;
+        display: block;
+
+    }
+}
+.loader{
+    opacity: 0.5;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 50%;
+}
+.info-text{margin-top: 8px;}
+
+div.no-results{
+    min-height: 300px;
+    background-image: url('../img/unhappy.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+#spark-navbar-collapse{
+    display: none !important;
+}
+@media (max-width: 767px){
+    #spark-navbar-collapse-original{
+        display: none;
+    }
+    #spark-navbar-collapse{
+        display: inherit !important;
+        overflow: hidden;
+    }
+}
+.table-responsive{padding-bottom: 10px;}
+
+
+.linkdisabled{
+        pointer-events: none;
+        opacity: 0.8;
+        color: #ccc;
+
+    }
